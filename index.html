@@ -12,6 +12,7 @@
                 align-items: center;
                 min-height: 100vh;
                 background: rgb(9, 9, 43);
+                overflow: hidden;
             }
             .loader {
                 position: relative;
@@ -42,6 +43,12 @@
             }
             h2 {
                 text-align: center;
+                color: transparent;
+                background: linear-gradient(210deg, #fb0094, #0000ff, #00ff00, #ffff00, #fb0094, #0000ff, #00ff00, #ffff00, #fb0094);;
+                -webkit-background-clip: text;
+                animation: animate 25s linear infinite;
+                border-radius: 20px;
+                background-size: 500%;
                 z-index: 10;
                 color: #fff;
                 font-family: sans-serif;
