@@ -1,2 +1,2 @@
-# Gradient Circle
-This is a gradient circle, with various vibrant colours. 
+# Gradient Colours
+This is a gradient circle with some words and various vibrant colours. 
